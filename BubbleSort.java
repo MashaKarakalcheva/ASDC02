@@ -71,11 +71,11 @@ public class BubbleSort {
         }
         long endTime = System.nanoTime();
         long duration = (endTime - startTime) / 1000000; // in milliseconds
-        System.out.println("Bubble sort by salary:");
-        System.out.println("Theoretical complexity: O(n^2)");
-        System.out.println("Comparisons: " + comparisons);
-        System.out.println("Swaps: " + swaps);
-        System.out.println("Execution time: " + duration + " ms");
+        System.out.println("Сортировка пузырьком по стажу работы:");
+        System.out.println("Теоретическая оценка сложности: O(n^2)");
+        System.out.println("Количество сравнений: " + comparisons);
+        System.out.println("Количество обменов: " + swaps);
+        System.out.println("Время выполнения алгоритма: " + duration + " ms");
     }
 
     public static void printEmployees(Employee[] employees) {
