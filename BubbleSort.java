@@ -70,7 +70,7 @@ public class BubbleSort {
             }
         }
         long endTime = System.nanoTime();
-        long duration = (endTime - startTime) / 1000000; // in milliseconds
+        long duration = (endTime - startTime) / 1000000; 
         System.out.println("Сортировка пузырьком по стажу работы:");
         System.out.println("Теоретическая оценка сложности: O(n^2)");
         System.out.println("Количество сравнений: " + comparisons);
